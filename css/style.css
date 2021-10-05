@@ -1,5 +1,81 @@
+
 body{
-    border: 85px solid #A4B5A8;
-    margin:0;
-    background-color: #A8BDAD;
+background: #A4B5A8;
+border-radius: 145px;
+margin:58px;
+}
+
+.my-other-box {
+    position: absolute;
+    width: 1330px;
+    height: 1330px;
+    left: 57px;
+    top: 54px;
+    right: 57px;
+    bottom:54px;
+    
+    background: #A8BDAD;
+    border-radius: 70px;
+}
+
+header{
+    position: absolute;
+    left: 114px;
+    top: 134px;
+    
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 140px;
+    line-height: 126.86%;
+    /* or 228px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.24em;
+    
+    color: #1C1A1A;
+    
+}
+
+h2{
+    position: absolute;
+width: 898px;
+height: 668px;
+left: calc(60% - 898px/2 - 19px);
+top: calc(30% - 668px/2 + 91px);
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 260px;
+line-height: 299px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #5A5454;
+
+    
+}
+
+h4{
+    
+position: absolute;
+width: 807px;
+height: 366px;
+left: calc(50% - 807px/2 - 18.5px);
+top: calc(50% - 366px/2 + 253px);
+
+font-family: Pirata One;
+font-style: normal;
+font-weight: normal;
+font-size: 99px;
+line-height: 127px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #6B6B6B;
+    
 }
