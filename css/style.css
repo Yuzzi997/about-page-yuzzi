@@ -44,9 +44,9 @@ header{
 
 h2{
 
-
+    z-index:2;
     position:absolute;
-    width: 1700px;
+    width: 2000px;
     height:1200px;
     
     font-family: Arial;
@@ -64,6 +64,7 @@ h2{
 }
 
 h4{
+    z-index:2;
     position:absolute;
     width: 807px;
     height: 2000px;
@@ -80,26 +81,27 @@ h4{
 }
 
 h3{
+    z-index:2;
     position: absolute;
-width: 353.07px;
-height: 303.6px;
-left: 57px;
-top: 986px;
+    width: 353.07px;
+    height: 303.6px;
+    left: 57px;
+    top: 986px;
 }
 
 h5{
+    z-index:2;
     position: absolute;
-width: 1359.39px;
-height: 993.77px;
-left: 373px;
-top: 446px;
+    width: 1359.39px;
+    height: 993.77px;
+    left: 373px;
+    top: 446px;
 
 }
 
 h6{
-
-position: absolute;
-width: 1070px;
-height: 812px;
-
+    position: absolute;
+    width: 1070px;
+    height: 812px;
+    bottom:-750px;
 }
